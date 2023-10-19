@@ -1,0 +1,43 @@
+#header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    border: 1px solid gray;
+    margin-top: 100px;
+    height: 400px;
+    width: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pass{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#toptext{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#button{
+    background-color: orange;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.create{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+#createbutton{
+    width: 500px;
+    align-self: center;
+}
